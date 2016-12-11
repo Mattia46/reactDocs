@@ -5,6 +5,9 @@ import { Validation } from './Validation';
 import { AppEvent } from './SyntheticEvent';
 import { Wrapper } from './LifeCycle';
 import { ComponentUpdateCycle } from './ComponentUpdateCycle';
+import MapFetch from './Map&Fetch';
+import Children from './Children';
+import Main from './Children2';
 
 ReactDOM.render(
   <App name='mattia'/>,
@@ -12,9 +15,8 @@ ReactDOM.render(
 );
 
 ReactDOM.render (
-  <ComponentUpdateCycle />,
+  <Main />,
   document.getElementById('validation')
 )
-
 
 
